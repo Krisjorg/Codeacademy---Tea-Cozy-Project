@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+}
+
+body {
+    background: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    display: block;
+    background-color: black;
+    height: 69px;
+    margin: 0 10px;
+    position: relative;
+}
+
+nav {
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav a {
+    margin: 0 10px;
+    color: seashell;
+}
+
+.logo {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+}
+
+.mission-container {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1bc1zpz*_ga*OTc3OTc4OTYzOC4xNjU3MjQwMjk4*_ga_3LRZM6TM9L*MTY1Nzc0ODU4OC41LjEuMTY1Nzc1NDUyMi41Nw..");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.box {
+    display: flex;
+    background-color: black;
+    opacity: 0.9;
+    width: 1200px;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+#featured-tea {
+    width: 1000px;
+    margin: 50px auto 80px auto;
+}
+
+.tea-header {
+    margin-bottom: 20px;
+}
+
+.tea-container {
+    margin-top: 10px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-selector {
+    margin: 15px 15px 10px 15px;
+}
+
+.fall-tea, .rum-tea, .donuts, .myrtle-tea, .bizarre-tea {
+    width: 300px;
+    height: 200px;
+}
+
+#locations {
+    display: flex;
+    height: 500px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1bc1zpz*_ga*OTc3OTc4OTYzOC4xNjU3MjQwMjk4*_ga_3LRZM6TM9L*MTY1Nzc0ODU4OC41LjEuMTY1Nzc1NDUyMi41Nw..");
+    background-size: cover;
+    background-position: center center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.locations-header {
+    margin: 10px 0 0 0;
+}
+
+.downtown-container, .east-container, .oakdale-container {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 20px 15px 20px;
+}
+
+.city-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.shop-name {
+    margin: 20px 0 40px 0;
+}
+
+.contact-info {
+    margin: 0 0 30px 0;
+}
+
+footer {
+    margin: 0 20px;
+    display: block;
+    text-align: left;
+    padding: 0 0 30px 0;
+}
